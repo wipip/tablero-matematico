@@ -13,7 +13,7 @@ import streamlit as st
 from streamlit_drawable_canvas import st_canvas
 
 st.set_page_config(
-    page_title="Tablero de dibujo libre",
+    page_title="Tablero matematico",
     page_icon="🤔",
     layout="wide",
     initial_sidebar_state="expanded"
@@ -32,18 +32,18 @@ def encode_image_to_base64(image_path):
 
 
 # Streamlit 
-st.set_page_config(page_title='Tablero Inteligente')
-st.title('Tablero Inteligente')
+st.set_page_config(page_title='Tablero matematico')
+st.title('Tablero matematico')
 with st.sidebar:
     st.subheader("Acerca de:")
-    st.subheader("En esta aplicación veremos la capacidad que ahora tiene una máquina de interpretar un boceto")
-st.subheader("Dibuja el boceto en el panel  y presiona el botón para analizarla")
+    st.subheader("Esta aplicación ayudará a los peques a entender ecuaciones matematicas que ellos dibujen")
+st.subheader("Dibuja el boceto en el panel  y presiona el botón para aprender")
 
 # Add canvas component
 #bg_image = st.sidebar.file_uploader("Cargar Imagen:", type=["png", "jpg"])
 # Specify canvas parameters in application
 drawing_mode = "freedraw"
-stroke_width = st.sidebar.slider('Selecciona el ancho de línea', 1, 30, 5)
+stroke_width = st.sidebar.slider('Selecciona el grosor', 1, 30, 5)
 #stroke_color = '#FFFFFF' # Set background color to white
 #bg_color = '#000000'
 stroke_color = "#000000" 
