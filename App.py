@@ -35,6 +35,9 @@ def encode_image_to_base64(image_path):
 st.set_page_config(page_title='Tablero matematico')
 st.title('Tablero matematico')
 with st.sidebar:
+    st.subheader("Acerca de:")
+    st.subheader("Esta aplicación ayudará a los peques a entender ecuaciones matematicas que ellos dibujen")
+    st.subheader("Dibuja el boceto en el panel  y presiona el botón para aprender")
     st.subheader("customizar el Tablero")
 
     # Canvas dimensions (moved to the top)
