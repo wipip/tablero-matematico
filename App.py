@@ -67,9 +67,6 @@ canvas_result = st_canvas(
     width=canvas_width,
     drawing_mode=drawing_mode,
     key=f"canvas_{canvas_width}_{canvas_height}",  # Dynamic key based on dimensions
-    ,st.subheader("Acerca de:")
-    ,st.subheader("Esta aplicación ayudará a los peques a entender ecuaciones matematicas que ellos dibujen")
-st.subheader("Dibuja el boceto en el panel  y presiona el botón para aprender")
 
 )
 
