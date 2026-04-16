@@ -62,9 +62,6 @@ with st.sidebar:
 
 # Create a canvas component with dynamic key
 
-
-)
-
 # Add canvas component
 #bg_image = st.sidebar.file_uploader("Cargar Imagen:", type=["png", "jpg"])
 # Specify canvas parameters in application
